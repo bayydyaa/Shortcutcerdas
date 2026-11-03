@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="id" data-theme="dark">
+<html lang="id">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#070b18">
+<meta name="theme-color" content="#16130f">
 <meta name="description" content="Shortcut Cerdas, pintu masuk ke semua web Bayyu">
 <meta name="apple-mobile-web-app-title" content="Shortcut Cerdas">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'><defs><linearGradient id='g' x2='1' y2='1'><stop stop-color='%238ca1ff'/><stop offset='1' stop-color='%23bd91ff'/></linearGradient></defs><rect width='128' height='128' rx='36' fill='url(%23g)'/><text x='64' y='88' text-anchor='middle' font-family='Arial,sans-serif' font-size='82' font-weight='800' fill='%2311172e'>S</text></svg>" type="image/svg+xml">
 <link rel="apple-touch-icon" href="data:image/png;base64,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">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
 <title>Shortcut Cerdas</title>
 <style>
 :root{
@@ -282,41 +282,159 @@ body.editing .grid .tile-add{opacity:.4}
 
 .section-head h1,.ghost{white-space:nowrap}
 @media(max-width:480px){#count{display:none}.section-head h1{font-size:19px}.head-actions .ghost{padding:8px 12px;font-size:13px}}
+/* ===== v7: tema kuningan + menu putar ===== */
+:root,:root[data-theme=light]{
+  color-scheme:light;
+  --bg:#ede6d6;--bg-top:#e2d8c2;--bg2:#f6f1e6;
+  --glass:rgba(255,255,255,.55);--glass-2:rgba(255,255,255,.82);
+  --line:rgba(31,27,21,.14);--line-2:rgba(31,27,21,.26);
+  --text:#1f1b15;--muted:#6b6252;
+  --accent:#a9792a;--accent-2:#d9b26a;--danger:#b3412f;
+  --shadow:0 24px 60px -28px rgba(60,40,10,.35);
+  --font:"Jost",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+:root[data-theme=dark]{
+  color-scheme:dark;
+  --bg:#16130f;--bg-top:#221c15;--bg2:#1e1913;
+  --glass:rgba(255,255,255,.05);--glass-2:rgba(255,255,255,.1);
+  --line:rgba(239,231,214,.14);--line-2:rgba(239,231,214,.26);
+  --text:#efe7d6;--muted:#a69a83;
+  --accent:#d9b26a;--accent-2:#f0d394;--danger:#e5826f;
+  --shadow:0 24px 60px -24px rgba(0,0,0,.7);
+}
+html{background:var(--bg)}
+body{background:radial-gradient(120% 70% at 50% 0%,var(--bg-top),var(--bg) 70%) fixed;font-family:var(--font)}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.07;mix-blend-mode:overlay;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E")}
+.shell{position:relative;z-index:1;width:min(600px,calc(100% - 40px));overflow-x:clip}
+:focus-visible{outline-color:var(--accent)}
+
+/* header */
+.brand{gap:10px;align-items:baseline}
+.brand-s{font-weight:600;font-size:20px;letter-spacing:-.02em}
+.brand-full{font-size:13px;color:var(--muted)}
+.top-actions{display:flex;gap:8px;align-items:center}
+.suara{display:flex;align-items:center;gap:6px;padding:7px 12px;border:1px solid var(--line);border-radius:999px;background:none;color:var(--muted);font-size:13px;cursor:pointer;transition:color .2s,border-color .2s}
+.suara[aria-pressed=true]{color:var(--accent);border-color:color-mix(in srgb,var(--accent) 50%,transparent)}
+.suara svg{width:15px;height:15px}
+.icon-btn{width:36px;height:36px;font-size:15px;background:none;-webkit-backdrop-filter:none;backdrop-filter:none}
+
+/* jam */
+.hero{padding:clamp(26px,6vh,52px) 0 0}
+.clock{font-weight:400;font-size:clamp(64px,19vw,104px);letter-spacing:-.045em;line-height:.9;margin:0}
+.clock .d{height:.95em}
+.clock .colon>span{animation:blink 2s steps(1) infinite}
+.sub{margin:14px 0 0;text-align:center;color:var(--muted);font-size:15px}
+.search-wrap{margin-top:24px;padding:4px 6px 4px 16px;border-radius:999px;background:var(--glass);box-shadow:none;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.search-wrap:focus-within{transform:none;border-color:color-mix(in srgb,var(--accent) 55%,transparent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 14%,transparent)}
+#search{padding:10px 0}
+.search-icon{color:var(--muted);width:17px;height:17px}
+.kbd{margin-right:8px}
+
+/* roda */
+.dial-wrap{margin-top:10px}
+.dial{position:relative;height:220px;margin:8px -20px 0;touch-action:pan-y;user-select:none;-webkit-user-select:none;cursor:grab;outline:none}
+.dial.diseret{cursor:grabbing}
+.dial::before{content:"";position:absolute;left:50%;top:calc(62% + 4px);width:min(118%,640px);aspect-ratio:2.4/1;transform:translate(-50%,0);border-radius:50%;border-top:1px solid color-mix(in srgb,var(--accent) 60%,transparent);pointer-events:none}
+.dial-item{position:absolute;left:0;top:0;display:flex;flex-direction:column;align-items:center;gap:8px;border:0;background:none;padding:0;color:var(--text);cursor:pointer;will-change:transform,opacity;-webkit-touch-callout:none}
+.dial-ikon{position:relative;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;overflow:hidden;background:var(--glass);border:1px solid var(--line);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:background .3s,border-color .3s,box-shadow .3s}
+.dial-ikon .letter{font-size:22px;font-weight:500;color:var(--muted)}
+.dial-ikon img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;padding:14px;opacity:0;transition:opacity .3s}
+.dial-ikon.has-img img{opacity:1}
+.dial-ikon.has-img .letter{visibility:hidden}
+:root[data-theme=dark] .dial-ikon.has-img{background:rgba(255,255,255,.08)}
+:root[data-theme=light] .dial-ikon.has-img{background:rgba(255,255,255,.85)}
+.dial-nama{font-size:12px;color:var(--muted);white-space:nowrap;transition:color .3s}
+.dial-item.dekat .dial-ikon{border-color:transparent;box-shadow:0 0 0 7px color-mix(in srgb,var(--accent) 18%,transparent),0 0 40px -6px var(--accent)}
+.dial-item.dekat .dial-ikon:not(.has-img){background:radial-gradient(circle at 35% 30%,var(--accent-2),var(--accent))}
+.dial-item.dekat .dial-ikon:not(.has-img) .letter{color:#241a08}
+.dial-item.dekat .dial-nama{color:var(--text);font-weight:500}
+.dial-item.is-missing .dial-ikon{opacity:.5;filter:grayscale(1)}
+.petunjuk{text-align:center;font-size:12px;color:var(--muted);margin:-6px 0 0}
+@media(hover:hover){.petunjuk::after{content:" · atau pakai scroll dan panah ← →"}}
+
+/* detail */
+.isi{margin-top:24px;border-top:1px solid var(--line);padding-top:20px;min-height:228px}
+.isi .urut{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted)}
+.isi h2{margin:10px 0 6px;font-weight:500;font-size:32px;letter-spacing:-.02em;line-height:1.1;overflow-wrap:anywhere}
+.isi p{margin:0;color:var(--muted);font-size:16px;line-height:1.5;max-width:44ch;min-height:1.5em}
+.kartu{margin-top:18px;display:flex;align-items:center;gap:12px;padding:12px 12px 12px 14px;border:1px solid var(--line);border-radius:18px;background:var(--glass)}
+.kartu .logo .tile-icon{width:46px;height:46px;margin:0;border-radius:14px;box-shadow:none}
+.kartu .logo .tile-icon.has-img{background:#fff}.kartu .logo .tile-icon:not(.has-img){background:radial-gradient(circle at 35% 30%,var(--accent-2),var(--accent))}.kartu .logo .letter{color:#241a08;text-shadow:none;font-weight:500}
+.kartu .logo .tile-icon img{padding:7px;background:transparent}
+.kartu>div{flex:1;min-width:0}
+.kartu small{display:block;color:var(--muted);font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kartu b{font-weight:500;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kartu-edit{flex:none;height:40px;padding:0 14px;border-radius:999px;border:1px solid var(--line);background:none;color:var(--muted);font-size:14px;cursor:pointer}
+.buka{flex:none;display:inline-flex;align-items:center;height:40px;padding:0 18px;border-radius:999px;background:var(--text);color:var(--bg);text-decoration:none;font-weight:500;font-size:14px;transition:transform .3s var(--spring)}
+.buka:active,.kartu-edit:active{transform:scale(.94)}
+.ganti{animation:muncul .35s cubic-bezier(.2,.8,.3,1)}
+@keyframes muncul{from{opacity:0;transform:translateY(10px)}}
+
+/* semua shortcut */
+.section-head{margin:36px 0 14px}
+h1{font-size:19px;font-weight:500;letter-spacing:-.02em}
+#count{font-weight:400}
+.ghost{background:none;border-radius:999px;padding:8px 14px;font-size:13.5px;font-weight:500;-webkit-backdrop-filter:none;backdrop-filter:none}
+.grid{background:var(--glass);border-color:var(--line);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.grid .tile-icon{background:var(--glass-2);box-shadow:none;border:1px solid var(--line)}
+.grid .tile-icon:not(.has-img){background:var(--glass)}
+.grid .tile-icon .letter{color:var(--muted);text-shadow:none;font-weight:500}
+:root[data-theme=dark] .grid .tile-icon.has-img{background:rgba(255,255,255,.08)}
+:root[data-theme=light] .grid .tile-icon.has-img{background:rgba(255,255,255,.85)}
+.grid .tile-name{font-weight:500}
+.grid .badge{background:var(--accent);color:#241a08}
+.primary{background:var(--text);color:var(--bg);border-radius:999px;box-shadow:none;font-weight:500}
+.cancel-btn,.delete-btn{border-radius:999px}
+.text-btn,.link-btn{color:var(--accent);font-weight:500}
+.modal{border-radius:24px;background:color-mix(in srgb,var(--bg2) 96%,transparent)}
+.modal h2{font-weight:500}
+.modal label{font-weight:500}
+.modal input:not([type=checkbox]){background:var(--glass)}
+.bm-item input{accent-color:var(--accent)}
+.bm-ico{background:var(--glass-2);color:var(--muted)}
+.toast{font-weight:500}
+.empty-icon{color:var(--accent)}
+@media(max-width:700px){.shell{width:calc(100% - 40px)}.grid{padding:16px 4px}}
+@media(max-width:420px){.isi h2{font-size:28px}.kartu{flex-wrap:wrap}.kartu>div{flex-basis:calc(100% - 60px)}.kartu-edit,.buka{flex:1;justify-content:center}}
+
 </style>
 </head>
 <body>
-<div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
 <main class="shell">
   <header class="top intro" style="--d:0">
-    <div class="brand">
-      <div class="brandmark">S</div>
-      <div><div class="brandname">Shortcut <span>Cerdas</span></div><div class="tiny">Punya Bayyu</div></div>
+    <div class="brand"><b class="brand-s">S.</b><span class="brand-full">Shortcut Cerdas</span></div>
+    <div class="top-actions">
+      <button class="suara" id="suara" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4Z" fill="currentColor"/><path id="ikSuara" d="M16 9.5l5 5M21 9.5l-5 5"/></svg><span id="suaraTeks">Suara mati</span></button>
+      <button class="icon-btn" id="themeBtn" type="button" title="Ganti tema" aria-label="Ganti tema">☼</button>
     </div>
-    <button class="icon-btn" id="themeBtn" type="button" title="Ganti tema" aria-label="Ganti tema">☼</button>
   </header>
 
   <section class="hero">
-    <div class="greeting intro" style="--d:1" id="greeting">Selamat datang</div>
-    <div class="clock intro" style="--d:2" id="clock" role="timer" aria-label="">--:--</div>
-    <div class="date intro" style="--d:3" id="date">Memuat tanggal…</div>
-    <form class="search-wrap intro" style="--d:4" id="searchForm" role="search">
-      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
+    <div class="clock intro" style="--d:1" id="clock" role="timer" aria-label="">--:--</div>
+    <p class="sub intro" style="--d:2"><span id="greeting">Selamat datang</span> · <span id="date">…</span></p>
+    <form class="search-wrap intro" style="--d:3" id="searchForm" role="search">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.6-3.6"/></svg>
       <input id="search" type="search" autocomplete="off" enterkeyhint="go" placeholder="Cari di Google atau ketik alamat web" aria-label="Cari di Google atau ketik alamat web">
       <span class="kbd" aria-hidden="true">/</span>
-      <button class="primary" type="submit">Cari</button>
     </form>
   </section>
 
-  <section class="section-head intro" style="--d:5">
-    <h1>Shortcut kamu <span id="count"></span></h1>
+  <section class="dial-wrap intro" style="--d:4" id="dialWrap">
+    <div class="dial" id="dial" role="tablist" aria-orientation="horizontal" aria-label="Pilih shortcut" tabindex="0"></div>
+    <p class="petunjuk">Geser rodanya, ketuk ikon tengah untuk membuka</p>
+  </section>
+  <div class="isi intro" style="--d:5" id="isi" role="tabpanel" aria-live="polite"></div>
+
+  <section class="section-head intro" style="--d:6" id="allHead">
+    <h1>Semua shortcut <span id="count"></span></h1>
     <div class="head-actions">
       <button class="ghost" id="editBtn" type="button">Atur</button>
       <button class="ghost" id="addBtn" type="button">＋ Tambah</button>
     </div>
   </section>
-
   <p class="edit-hint-text hidden" id="editHint">Ketuk ikon untuk edit atau hapus. Tekan lama ikon juga bisa kapan saja.</p>
   <section class="grid" id="grid"></section>
+
   <section class="empty hidden" id="empty">
     <div class="empty-icon">✳</div>
     <h2>Belum ada shortcut</h2>
@@ -324,7 +442,7 @@ body.editing .grid .tile-add{opacity:.4}
     <button class="primary" id="emptyAdd" type="button">＋ Tambah shortcut</button>
   </section>
 
-  <footer class="intro" style="--d:6">
+  <footer class="intro" style="--d:7">
     <span>Made for Bayyu ✦</span>
     <div class="actions">
       <button class="text-btn" id="bmBtn" type="button">Impor bookmark</button>
@@ -335,6 +453,7 @@ body.editing .grid .tile-add{opacity:.4}
     <input type="file" id="bmFile" accept="text/html,.html,.htm" hidden>
   </footer>
 </main>
+
 
 <dialog id="linkDialog">
   <form id="linkForm" class="modal" novalidate>
@@ -348,6 +467,9 @@ body.editing .grid .tile-add{opacity:.4}
     <p class="field-error hidden" id="urlError">Alamat web belum benar. Contoh: kasir.com atau https://kasir.com</p>
     <label>Nama <span class="opt">(boleh kosong, diisi otomatis)</span>
       <input id="linkName" maxlength="40" placeholder="Kasir Cerdas">
+    </label>
+    <label>Keterangan <span class="opt">(opsional, muncul di bawah roda)</span>
+      <input id="linkDesc" maxlength="140" placeholder="Kasir toko untuk mencatat penjualan harian">
     </label>
     <div class="icon-preview" id="iconPreview"></div>
     <div class="alt-row" id="bmFromAddRow">Punya banyak? <button type="button" class="link-btn" id="bmFromAdd">Ambil dari bookmark</button></div>
@@ -403,10 +525,9 @@ body.editing .grid .tile-add{opacity:.4}
 // Daftar awal (muncul saat dashboard pertama kali dibuka di sebuah perangkat).
 // Kalau alamatnya beda, ganti di sini sebelum upload ke GitHub.
 const DEFAULTS = [
-  { name: "Pasar Tani Cerdas", url: "https://bayydyaa.github.io/pasartanicerdas/" },
-  { name: "Pertanian Cerdas",  url: "https://bayydyaa.github.io/pertaniancerdas/" },
-  { name: "Kasir Cerdas",      url: "https://bayydyaa.github.io/kasircerdas/" },
-  { name: "Kamera Cerdas",     url: "https://bayydyaa.github.io/kameracerdas/" }
+  { name: "Pertanian Cerdas", url: "https://bayydyaa.github.io/PertanianCerdas/", desc: "E-katalog toko CV Azzahra Mutiara Tani. Lebih dari 1.000 produk, tanya harga dan stok lewat WhatsApp." },
+  { name: "Kasir Cerdas",     url: "https://bayydyaa.github.io/kasircerdas/",     desc: "Kasir toko untuk mencatat penjualan setiap hari, pengganti catatan kertas." },
+  { name: "Rebuild Cerdas",   url: "https://bayydyaa.github.io/rebuildcerdas/",   desc: "Animasi kawanan kursor yang membangun ulang sebuah halaman web." }
 ];
 
 const KEY = "bayyu-dashboard-links-v2";
@@ -495,7 +616,8 @@ function sanitize(arr) {
       autoName: !!x.autoName,
       checked: !!x.checked,
       checkedAt: Number(x.checkedAt) || 0,
-      missing: !!x.missing
+      missing: !!x.missing,
+      desc: typeof x.desc === "string" ? x.desc.trim().slice(0, 140) : ""
     };
   }).filter(Boolean);
 }
@@ -653,10 +775,191 @@ function render() {
   }).join("") + (links.length ? `<div class="tile tile-add"><button type="button" class="tile-link" id="ghostAdd" aria-label="Tambah shortcut"><span class="tile-icon add-icon">＋</span><span class="tile-name">Tambah</span></button></div>` : "");
   const ga = $("ghostAdd"); if (ga) ga.onclick = openAdd;
   wireImages($("grid"));
-  $("empty").classList.toggle("hidden", links.length !== 0);
-  $("grid").classList.toggle("hidden", links.length === 0);
-  $("editBtn").classList.toggle("hidden", links.length === 0);
+  const none = links.length === 0;
+  $("empty").classList.toggle("hidden", !none);
+  ["grid", "allHead", "dialWrap", "isi"].forEach(id => $(id).classList.toggle("hidden", none));
   $("count").textContent = links.length ? `${links.length} web` : "";
+  dial.setItems(links);
+}
+
+/* ---------- menu putar (dial) ---------- */
+const sound = (() => {
+  let ac = null, on = readLS("shortcut-cerdas-sound") === "1";
+  function tik(nada) {
+    if (!on) return;
+    try {
+      ac = ac || new (window.AudioContext || window.webkitAudioContext)();
+      const o = ac.createOscillator(), g = ac.createGain(), t = ac.currentTime, f = nada || 1400;
+      o.type = "triangle";
+      o.frequency.setValueAtTime(f, t);
+      o.frequency.exponentialRampToValueAtTime(f * .55, t + .05);
+      g.gain.setValueAtTime(.0001, t);
+      g.gain.exponentialRampToValueAtTime(.12, t + .004);
+      g.gain.exponentialRampToValueAtTime(.0001, t + .07);
+      o.connect(g); g.connect(ac.destination); o.start(t); o.stop(t + .08);
+    } catch {}
+  }
+  function paint() {
+    $("suara").setAttribute("aria-pressed", on);
+    $("suaraTeks").textContent = on ? "Suara nyala" : "Suara mati";
+    $("ikSuara").setAttribute("d", on ? "M15.5 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11" : "M16 9.5l5 5M21 9.5l-5 5");
+  }
+  $("suara").onclick = () => { on = !on; writeLS("shortcut-cerdas-sound", on ? "1" : "0"); paint(); tik(1600); };
+  paint();
+  return { tik };
+})();
+
+const dial = (() => {
+  const akar = $("dial");
+  const LANGKAH_MAX = 24, JARI = 300;
+  let items = [], tombol = [], sig = "", pos = 0, aktif = -1, aktifId = null, anim = null, geserJauh = false;
+  const n = () => items.length;
+  const bungkus = x => ((x % n()) + n()) % n();
+  function selisih(i, p) { const N = n(); let d = i - p; d = ((d % N) + N) % N; if (d > N / 2) d -= N; return d; }
+  const langkahDi = L => { const R = Math.min(JARI, L * .78); return Math.min(LANGKAH_MAX, Math.asin(Math.min(1, (L / 2 - 36) / R)) / 2 * 180 / Math.PI); };
+
+  function gambar() {
+    if (!n()) return;
+    const L = akar.clientWidth, cx = L / 2, R = Math.min(JARI, L * .78), dasar = akar.clientHeight * .62, LG = langkahDi(L);
+    tombol.forEach((b, i) => {
+      const d = selisih(i, pos), a = d * LG * Math.PI / 180, jauh = Math.abs(d);
+      const x = cx + Math.sin(a) * R, y = dasar - R * (1 - Math.cos(a));
+      const sk = Math.max(.6, 1.15 - jauh * .19), op = jauh > 2.45 ? 0 : Math.max(0, 1 - jauh * .26);
+      b.style.transform = `translate(${x}px,${y}px) translate(-50%,-50%) scale(${sk})`;
+      b.style.opacity = op;
+      b.style.pointerEvents = op < .2 ? "none" : "";
+      b.style.zIndex = 100 - Math.round(jauh * 10);
+      b.classList.toggle("dekat", jauh < .5);
+    });
+    const ia = bungkus(Math.round(pos));
+    if (ia !== aktif) {
+      const first = aktif === -1;
+      aktif = ia;
+      aktifId = items[ia].id;
+      tombol.forEach((b, i) => { b.setAttribute("aria-selected", i === ia); b.tabIndex = i === ia ? 0 : -1; });
+      tampil(ia, items[ia], !first);
+      if (!first) { sound.tik(1200 + (ia % 8) * 90); if (navigator.vibrate) try { navigator.vibrate(6); } catch {} }
+    }
+  }
+
+  function animasi(tujuan) {
+    cancelAnimationFrame(anim);
+    if (reduceMotion) { pos = tujuan; gambar(); return; }
+    let v = 0, t0 = performance.now();
+    const jalan = now => {
+      const dt = Math.min(.032, (now - t0) / 1000); t0 = now;
+      const k = 120, ac = k * (tujuan - pos) - 2 * Math.sqrt(k) * v;
+      v += ac * dt; pos += v * dt;
+      if (Math.abs(tujuan - pos) < .0008 && Math.abs(v) < .002) { pos = tujuan; gambar(); return; }
+      gambar(); anim = requestAnimationFrame(jalan);
+    };
+    anim = requestAnimationFrame(jalan);
+  }
+  const keIndeks = i => animasi(pos + selisih(i, pos));
+
+  function bukaItem(it) { if (it) window.open(it.url, "_blank", "noopener"); }
+
+  function setItems(list) {
+    const newSig = list.map(x => [x.id, x.name, x.icon, x.missing ? 1 : 0].join("|")).join("~");
+    if (newSig === sig) return;
+    const sameOrder = list.map(x => x.id).join() === items.map(x => x.id).join();
+    sig = newSig;
+    items = list.slice();
+    akar.innerHTML = "";
+    tombol = items.map((it, i) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.className = "dial-item" + (it.missing ? " is-missing" : "");
+      b.setAttribute("role", "tab");
+      b.setAttribute("aria-label", it.name);
+      b.tabIndex = -1;
+      b.innerHTML = `<span class="dial-ikon" style="--h:${hue(it.url)}"><span class="letter">${esc(initial(it.name))}</span>${
+        it.icon ? `<img src="${esc(it.icon)}" alt="" referrerpolicy="no-referrer">` : ""}</span><span class="dial-nama">${esc(it.name.length > 12 ? it.name.slice(0, 11).trim() + "…" : it.name)}</span>`;
+      b.addEventListener("click", () => {
+        if (geserJauh) return;
+        if (i === aktif) bukaItem(items[i]); else keIndeks(i);
+      });
+      akar.appendChild(b);
+      return b;
+    });
+    akar.querySelectorAll(".dial-ikon img").forEach(img => {
+      const box = img.parentElement;
+      img.onload = () => img.naturalWidth > 1 ? box.classList.add("has-img") : img.remove();
+      img.onerror = () => img.remove();
+      if (img.complete && img.naturalWidth) box.classList.add("has-img");
+    });
+    if (!n()) { aktif = -1; return; }
+    if (!sameOrder) {
+      cancelAnimationFrame(anim);
+      const keep = items.findIndex(x => x.id === aktifId);
+      pos = keep >= 0 ? keep : Math.min(Math.max(aktif, 0), n() - 1);
+    }
+    aktif = -1;
+    gambar();
+  }
+
+  // geser dengan jari / mouse
+  let mulaiX = 0, mulaiPos = 0, terakhir = [], tekan = false;
+  const jarak = () => Math.max(48, Math.sin(langkahDi(akar.clientWidth) * Math.PI / 180) * Math.min(JARI, akar.clientWidth * .78));
+  akar.addEventListener("pointerdown", e => {
+    if (!n()) return;
+    tekan = true; geserJauh = false; mulaiX = e.clientX; mulaiPos = pos; terakhir = [[e.clientX, performance.now()]];
+    cancelAnimationFrame(anim); akar.classList.add("diseret");
+  });
+  akar.addEventListener("pointermove", e => {
+    if (!tekan) return;
+    const dx = e.clientX - mulaiX;
+    if (Math.abs(dx) > 6 && !geserJauh) { geserJauh = true; try { akar.setPointerCapture(e.pointerId); } catch {} }
+    if (!geserJauh) return;
+    pos = mulaiPos - dx / jarak();
+    terakhir.push([e.clientX, performance.now()]); if (terakhir.length > 6) terakhir.shift();
+    gambar();
+  });
+  const lepas = () => {
+    if (!tekan) return;
+    tekan = false; akar.classList.remove("diseret");
+    const a = terakhir[0], b = terakhir[terakhir.length - 1], dt = Math.max(16, b[1] - a[1]);
+    const laju = -(b[0] - a[0]) / dt / jarak() * 1000;
+    if (geserJauh) animasi(Math.round(pos + laju * .18));
+    setTimeout(() => { geserJauh = false; }, 0);
+  };
+  akar.addEventListener("pointerup", lepas);
+  akar.addEventListener("pointercancel", lepas);
+  akar.addEventListener("wheel", e => {
+    if (!n()) return;
+    e.preventDefault();
+    clearTimeout(akar._w);
+    if (akar._lock) return;
+    akar._lock = true; akar._w = setTimeout(() => { akar._lock = false; }, 140);
+    animasi(Math.round(pos) + (e.deltaY + e.deltaX > 0 ? 1 : -1));
+  }, { passive: false });
+  akar.addEventListener("keydown", e => {
+    if (e.key === "ArrowRight") { e.preventDefault(); animasi(Math.round(pos) + 1); }
+    if (e.key === "ArrowLeft") { e.preventDefault(); animasi(Math.round(pos) - 1); }
+    if (e.key === "Enter") bukaItem(items[aktif]);
+  });
+  addEventListener("resize", gambar);
+
+  return { setItems, keIndeks, ke: id => { const i = items.findIndex(x => x.id === id); if (i >= 0) keIndeks(i); } };
+})();
+
+function tampil(i, w, animate) {
+  const isi = $("isi");
+  const host = subLabel(w.url);
+  const ket = w.missing
+    ? `<span class="warn">Link ini tidak ditemukan (404). Ketuk Edit untuk memperbaiki alamatnya.</span>`
+    : esc(w.desc || host);
+  isi.innerHTML = `<div class="urut"><span>Shortcut pilihan</span><span>${i + 1} dari ${links.length}</span></div>
+    <h2>${esc(w.name)}</h2><p>${ket}</p>
+    <div class="kartu">
+      <span class="logo">${iconHTML(w)}</span>
+      <div><b>${esc(w.name)}</b><small>${esc(host)}</small></div>
+      <button type="button" class="kartu-edit" id="detailEdit" aria-label="Edit ${esc(w.name)}">Edit</button>
+      <a class="buka" href="${esc(w.url)}" target="_blank" rel="noopener noreferrer">Buka</a>
+    </div>`;
+  wireImages(isi);
+  $("detailEdit").onclick = () => openEdit(w.id);
+  if (animate && !reduceMotion) { isi.classList.remove("ganti"); void isi.offsetWidth; isi.classList.add("ganti"); }
 }
 
 /* ---------- mode atur: tekan lama / klik kanan / tombol Atur ---------- */
@@ -738,6 +1041,7 @@ function openEdit(id) {
   $("linkId").value = id;
   $("linkUrl").value = x.url;
   $("linkName").value = x.autoName ? "" : x.name;
+  $("linkDesc").value = x.desc || "";
   $("modalTitle").textContent = "Edit shortcut";
   $("deleteBtn").classList.remove("hidden");
   $("bmFromAddRow").classList.add("hidden");
@@ -776,7 +1080,8 @@ $("linkForm").addEventListener("submit", e => {
     icon: old && old.url === url ? old.icon : "",
     missing: false,
     checked: false,
-    checkedAt: 0
+    checkedAt: 0,
+    desc: $("linkDesc").value.trim().slice(0, 140)
   };
   if (old) links = links.map(x => x.id === id ? item : x);
   else links.push(item);
@@ -921,7 +1226,7 @@ $("bmFile").onchange = async e => {
 $("bmImport").onclick = () => {
   const picked = bmItems.filter(b => b.pick && !b.exists);
   if (!picked.length) return;
-  const added = picked.map(b => ({ id: uid(), name: b.name, url: b.url, icon: b.icon, autoName: false, missing: false, checked: false, checkedAt: 0 }));
+  const added = picked.map(b => ({ id: uid(), name: b.name, url: b.url, icon: b.icon, autoName: false, missing: false, checked: false, checkedAt: 0, desc: "" }));
   links.push(...added);
   save();
   render();
@@ -949,7 +1254,7 @@ addEventListener("keydown", e => {
 function applyTheme(t) {
   document.documentElement.dataset.theme = t;
   $("themeBtn").textContent = t === "light" ? "☾" : "☼";
-  document.querySelector('meta[name="theme-color"]').content = t === "light" ? "#eef1fb" : "#070b18";
+  document.querySelector('meta[name="theme-color"]').content = t === "light" ? "#ede6d6" : "#16130f";
 }
 applyTheme(readLS(THEME) || (matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark"));
 $("themeBtn").onclick = () => {
@@ -960,7 +1265,7 @@ $("themeBtn").onclick = () => {
 
 /* ---------- cadangkan / pulihkan ---------- */
 $("exportBtn").onclick = () => {
-  const data = links.map(({ name, url, icon }) => ({ name, url, icon }));
+  const data = links.map(({ name, url, icon, desc }) => ({ name, url, icon, desc }));
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: "application/json" });
   const a = document.createElement("a");
   a.href = URL.createObjectURL(blob);
@@ -1029,9 +1334,10 @@ function setClock(str) {
 function tick() {
   const d = new Date();
   setClock(new Intl.DateTimeFormat("id-ID", { hour: "2-digit", minute: "2-digit", hour12: false }).format(d).replace(".", ":"));
-  $("date").textContent = new Intl.DateTimeFormat("id-ID", { weekday: "long", day: "numeric", month: "long", year: "numeric" }).format(d);
+  $("date").textContent = new Intl.DateTimeFormat("id-ID", { weekday: "long", day: "numeric", month: "long" }).format(d);
   const h = d.getHours();
   $("greeting").textContent = h < 11 ? "Selamat pagi, Bayyu" : h < 15 ? "Selamat siang, Bayyu" : h < 18 ? "Selamat sore, Bayyu" : "Selamat malam, Bayyu";
+  if (h !== tick.h) { tick.h = h; }
 }
 
 tick();
