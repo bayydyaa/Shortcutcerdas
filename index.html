@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0b1020">
+<meta name="description" content="Shortcut Cerdas, pintu masuk ke semua web Bayyu">
+<meta name="apple-mobile-web-app-title" content="Shortcut Cerdas">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="icon" href="icon-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<title>Shortcut Cerdas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient a1"></div><div class="ambient a2"></div>
+<main class="shell">
+  <header class="top">
+    <div class="brand"><div class="brandmark">S</div><div><div class="brandname">Shortcut<span> Cerdas</span></div><div class="muted tiny">PUNYA BAYYU</div></div></div>
+    <button class="icon-btn" id="themeBtn" type="button" title="Ganti tema" aria-label="Ganti tema">☼</button>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow" id="greeting">SELAMAT DATANG</div>
+    <div class="clock" id="clock">--:--</div>
+    <div class="date" id="date">Memuat tanggal…</div>
+    <form class="search-wrap" id="searchForm" role="search">
+      <span class="search-icon" aria-hidden="true">⌕</span>
+      <input id="search" type="search" autocomplete="off" enterkeyhint="go" placeholder="Cari di Google atau ketik alamat web" aria-label="Cari di Google atau ketik alamat web">
+      <button type="submit">Cari</button>
+    </form>
+  </section>
+
+  <section class="section-head">
+    <h1>Shortcut kamu</h1>
+    <button class="add-btn" id="addBtn" type="button"><span>＋</span> Tambah</button>
+  </section>
+
+  <section class="grid" id="grid"></section>
+  <section class="empty hidden" id="empty">
+    <div class="empty-icon">✳</div>
+    <h2>Belum ada shortcut</h2>
+    <p>Tempel alamat web, logonya nanti muncul sendiri.</p>
+    <button class="add-btn" id="emptyAdd" type="button">＋ Tambah shortcut</button>
+  </section>
+
+  <footer>
+    <span>Made for Bayyu ✦</span>
+    <div>
+      <button class="text-btn" id="exportBtn" type="button">Cadangkan</button>
+      <button class="text-btn" id="importBtn" type="button">Pulihkan</button>
+      <input type="file" id="importFile" accept="application/json,.json" hidden>
+    </div>
+  </footer>
+</main>
+
+<dialog id="linkDialog">
+  <form id="linkForm" class="modal" novalidate>
+    <div class="modal-head">
+      <h2 id="modalTitle">Tambah shortcut</h2>
+      <button class="icon-btn close" type="button" id="closeBtn" aria-label="Tutup">×</button>
+    </div>
+    <label>Alamat web
+      <input id="linkUrl" inputmode="url" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="contoh: bayydyaa.github.io/kasircerdas">
+    </label>
+    <p class="field-error hidden" id="urlError">Alamat web belum benar. Contoh: kasir.com atau https://kasir.com</p>
+    <label>Nama <span class="opt">(boleh kosong, diisi otomatis)</span>
+      <input id="linkName" maxlength="40" placeholder="Kasir Cerdas">
+    </label>
+    <div class="icon-preview" id="iconPreview"></div>
+    <input type="hidden" id="linkId">
+    <div class="modal-actions">
+      <button type="button" class="delete-btn hidden" id="deleteBtn">Hapus</button>
+      <span></span>
+      <button type="button" class="cancel-btn" id="cancelBtn">Batal</button>
+      <button type="submit" class="save-btn">Simpan</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
